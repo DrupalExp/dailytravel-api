@@ -64,5 +64,16 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+* [ ] Task 1
+* [x] Task 2
+
+{% hint style="info" %}
+**Token** is not require for this action
+{% endhint %}
+
+| Params | Type | Description |
+| :--- | :--- | :--- |
+| \_format | string |  |
+
 
 
