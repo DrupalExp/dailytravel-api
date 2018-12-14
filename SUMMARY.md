@@ -1,7 +1,11 @@
 # Table of contents
 
-* [User](README.md)
-* [Activity](activity.md)
+* [Summary](README.md)
+
+## Users
+
+* [List users](users/activity.md)
+* [Untitled](users/untitled.md)
 
 ## Services
 
