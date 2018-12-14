@@ -1,6 +1,6 @@
 # /service/add
 
-{% api-method method="post" host="https://api.cakes.com" path="/v1/cakes/:id" %}
+{% api-method method="post" host="https://domain.com/api" path="/v1/cakes/:id" %}
 {% api-method-summary %}
 Get Cakes
 {% endapi-method-summary %}
