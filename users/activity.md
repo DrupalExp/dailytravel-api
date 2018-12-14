@@ -46,11 +46,29 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```javascript
-{
-    "name": "Cake's name",
-    "recipe": "Cake's recipe name",
-    "cake": "Binary cake"
-}
+[
+    {
+        "uid":[{"value":7}],
+        "uuid":[{"value":"f764b60e-22f6-49fb-adce-2a5193221e90"}],
+        "langcode":[{"value":"en"}],
+        "preferred_langcode":[{"value":"en"}],
+        "preferred_admin_langcode":[{"value":"en"}],
+        "name":[{"value":"simon"}],
+        "mail":[{"value":"test@test.com"}],
+        "timezone":[{"value":"Asia\/Krasnoyarsk"}],
+        "status":[{"value":true}],
+        "created":[{"value":"2018-12-13T07:45:06+00:00","format":"Y-m-d\\TH:i:sP"}],
+        "changed":[{"value":"2018-12-13T09:16:38+00:00","format":"Y-m-d\\TH:i:sP"}],
+        "access":[{"value":"2018-12-13T10:04:46+00:00","format":"Y-m-d\\TH:i:sP"}],
+        "login":[{"value":"2018-12-13T08:15:58+00:00","format":"Y-m-d\\TH:i:sP"}],
+        "init":[{"value":"tusinh.information@gmail.com"}],
+        "roles":[{"target_id":"administrator","target_type":"user_role","target_uuid":"2bd96fbc-303c-4ad2-8f5b-c6d136046780"}],
+        "default_langcode":[{"value":true}],
+        "path":[{"alias":null,"pid":null,"langcode":"en"}],
+        "user_picture":[]
+    }
+    ...
+]
 ```
 {% endapi-method-response-example %}
 
