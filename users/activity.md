@@ -78,5 +78,19 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+#### Example:
+
+```javascript
+axios.get('https://apiurl.com/api/v1/users?_format=json', {
+  headers: {
+    Authorization: 'Bearer token_string'
+  }
+}).then(response => {
+  console.log(response.data);
+}).catch(error => {
+  console.log(error.response.data.message);
+})
+```
+
 
 
