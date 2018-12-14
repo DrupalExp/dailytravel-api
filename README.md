@@ -19,7 +19,7 @@ ID of the cake to get, for free of course.
 
 {% api-method-headers %}
 {% api-method-parameter name="Authentication" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
+Bearer jwt\_token
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
