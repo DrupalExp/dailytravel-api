@@ -6,7 +6,7 @@ List all users
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+This endpoint allows you to get all users.
 {% endapi-method-description %}
 
 {% api-method-spec %}
