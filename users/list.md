@@ -11,13 +11,6 @@ This endpoint allows you to get free cakes.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="status" type="number" %}
-Filter by user's status.  
-0: blocked, 1 active. Default is 1
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 The access token start with "Bearer "
