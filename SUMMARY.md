@@ -4,7 +4,7 @@
 
 ## Users
 
-* [List users](users/activity.md)
+* [List users](users/list.md)
 * [Untitled](users/untitled.md)
 
 ## Services
