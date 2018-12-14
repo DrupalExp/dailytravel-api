@@ -12,11 +12,6 @@ This endpoint allows you to get free cakes.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="role" type="string" required=false %}
-Filter users by role.  
-Available role: administrator, parter
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="status" type="number" %}
 Filter by user's status.  
 0: blocked, 1 active. Default is 1
@@ -42,12 +37,6 @@ Filter users by user's status.
 default: 1
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
-
-{% api-method-body-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
