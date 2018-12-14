@@ -1,6 +1,6 @@
 # Initial page
 
-{% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
+{% api-method method="get" host="https://dailytravel.app" path="/v1/cakes/:id?\_format=json" %}
 {% api-method-summary %}
 Get Cakes
 {% endapi-method-summary %}
