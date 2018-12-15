@@ -13,3 +13,15 @@
 * [/service/add](services/service-add.md)
 * [Untitled](untitled.md)
 
+## Categories
+
+* [Untitled](categories/untitled.md)
+
+## Locations
+
+* [Untitled](locations/untitled.md)
+
+## Activities
+
+* [Untitled](activities/untitled.md)
+
