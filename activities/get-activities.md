@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="https://APIURL" path="/v1/activities" %}
 {% api-method-summary %}
-Get all Activit
+Get Activities
 {% endapi-method-summary %}
 
 {% api-method-description %}
