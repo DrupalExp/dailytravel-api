@@ -32,11 +32,41 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```javascript
-{
-    "name": "Cake's name",
-    "recipe": "Cake's recipe name",
-    "cake": "Binary cake"
-}
+[
+    {
+        "id": 1,
+        "name": "du lich ba na",
+        "slug": "/activity/du-lich-ba-na",
+        "summary": "test summary"
+        "content": "test content",
+        "images": "[image path1, image path2]",
+        "cat_id": 1,
+        "log_id": 1,
+        "information": "test information",
+        "guide": "test guide",
+        "address": "da nang, viet nam",
+        "open_time": "08am-22pm",
+        "intro_video": "video path",
+        "status": 1,
+    },
+    {
+        "id": 2,
+        "name": "vinpearl da nang",
+        "slug": "/activity/vinpearl-da-nang",
+        "summary": "test summary"
+        "content": "test content",
+        "images": "[image path1, image path2]",
+        "cat_id": 1,
+        "log_id": 1,
+        "information": "test information",
+        "guide": "test guide",
+        "address": "da nang, viet nam",
+        "open_time": "08am-22pm",
+        "intro_video": "video path",
+        "status": 1,
+    },
+    ...
+]
 ```
 {% endapi-method-response-example %}
 
@@ -47,7 +77,7 @@ Could not find a cake matching this query.
 
 ```javascript
 {
-    "message": "Ain't no cake like that."
+    "message": "There is no activity found"
 }
 ```
 {% endapi-method-response-example %}
