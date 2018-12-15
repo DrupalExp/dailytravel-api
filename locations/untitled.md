@@ -36,12 +36,34 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```javascript
-{
-    "parent_id": 1,
-    "name": "Location name",
-    "slug": "location path",
-    "image": "image path"
-}
+[
+    {
+        "id": 1,
+        "name": "Viet Nam",
+        "slug": "/location/viet-nam",
+        "location": "5.6283253,96.8623023"
+        "images": "[path1, path2]",
+        "summary": "test summary",
+        "content": "tets content",
+        "timezone": "GMT+7",
+        "currentcy": "vn",
+        "status": 1,
+        "parent_id": 1,
+    },
+    {
+        "id": 2,
+        "name": "Da Nang",
+        "slug": "/location/da-nang",
+        "location": "5.6283253,96.8623023"
+        "images": "[path1, path2]",
+        "summary": "test summary",
+        "content": "tets content",
+        "timezone": "GMT+7",
+        "currentcy": "vn",
+        "status": 1,
+        "parent_id": 1,
+    }
+]
 ```
 {% endapi-method-response-example %}
 
