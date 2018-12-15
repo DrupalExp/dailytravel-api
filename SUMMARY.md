@@ -14,7 +14,7 @@
 
 ## Activities
 
-* [GetActivities](activities/untitled.md)
+* [GetActivities](activities/get-activities.md)
 
 ## Services
 
