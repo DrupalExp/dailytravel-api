@@ -20,6 +20,13 @@ This endpoint allows you to get all locations.
 Authentication token to track down who is emptying our stocks.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="fields" type="string" required=false %}
+**all** or comma separated list of **fields**:  
+id, name, slug, location, images, summary, content, timezone, currency, status, parent\_id
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
