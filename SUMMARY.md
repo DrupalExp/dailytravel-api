@@ -7,6 +7,7 @@
 * [users](users/list.md)
 * [user/id](users/untitled.md)
 * [add](users/add.md)
+* [delete/id](users/delete-id.md)
 
 ## Activities
 

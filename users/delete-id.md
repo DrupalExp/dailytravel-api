@@ -1,8 +1,8 @@
-# add
+# delete/id
 
-{% api-method method="post" host="https://api.cakes.com" path="/v1/cakes/:id" %}
+{% api-method method="delete" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
-Add new user or update user
+Delete user by ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
