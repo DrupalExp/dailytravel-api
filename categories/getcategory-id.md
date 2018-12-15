@@ -1,16 +1,22 @@
-# GetCategories
+# GetCategory:id
 
-{% api-method method="get" host="https://APIURL" path="/v1/categories" %}
+{% api-method method="get" host="https://APIURL" path="/v1/category/:id" %}
 {% api-method-summary %}
-Get Categories
+Get category by id
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get all category.
+This endpoint allows you to get category by id.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="id" type="string" %}
+ID of the category to get
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
 {% api-method-parameter name="token" type="string" required=true %}
 Authentication token to track down who is emptying our stocks.
@@ -32,23 +38,13 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```javascript
-[
-    {
-        "id": 1,
-        "name": "Ve tham quan",
-        "slug": "category-ve-tham-quan",
-        "description": "ve tham quan cac dia diem"
-        "status": 1,
-    },
-    {
-        "id": 2,
-        "name": "Ve tham quan",
-        "slug": "category-ve-tham-quan",
-        "description": "ve tham quan cac dia diem"
-        "status": 1,
-    }
-    ...
-]
+{
+    "id": 1,
+    "name": "Ve tham quan",
+    "slug": "category-ve-tham-quan",
+    "description": "ve tham quan cac dia diem"
+    "status": 1,
+}
 ```
 {% endapi-method-response-example %}
 

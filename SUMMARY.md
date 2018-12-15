@@ -25,6 +25,7 @@
 ## Categories
 
 * [GetCategories](categories/untitled.md)
+* [GetCategory:id](categories/getcategory-id.md)
 
 ## Locations
 
