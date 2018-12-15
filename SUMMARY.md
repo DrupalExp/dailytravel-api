@@ -4,8 +4,9 @@
 
 ## Users
 
-* [List users](users/list.md)
-* [User:id](users/untitled.md)
+* [users](users/list.md)
+* [user/id](users/untitled.md)
+* [add](users/add.md)
 
 ## Activities
 

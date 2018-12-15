@@ -1,8 +1,8 @@
-# user/id
+# add
 
-{% api-method method="get" host="https://apiurl" path="/v1/user/:id" %}
+{% api-method method="post" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
-Get User by ID
+Add new user
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -12,8 +12,8 @@ This endpoint allows you to get free cakes.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="integer" required=true %}
-ID of the user to get
+{% api-method-parameter name="id" type="string" %}
+ID of the cake to get, for free of course.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -24,8 +24,12 @@ Authentication token to track down who is emptying our stocks.
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="fields" type="string" %}
-all or a comma 
+{% api-method-parameter name="recipe" type="string" %}
+The API will do its best to find a cake matching the provided recipe.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="gluten" type="boolean" %}
+Whether the cake should be gluten-free or not.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}

@@ -1,4 +1,4 @@
-# List users
+# users
 
 {% api-method method="get" host="https://domain.com" path="/api/v1/users?\_format=json" %}
 {% api-method-summary %}
