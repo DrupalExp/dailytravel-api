@@ -29,4 +29,5 @@
 ## Locations
 
 * [GetLocations](locations/untitled.md)
+* [GetLocation:id](locations/getlocation-id.md)
 
