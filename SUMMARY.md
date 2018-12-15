@@ -7,6 +7,10 @@
 * [List users](users/list.md)
 * [User:id](users/untitled.md)
 
+## Activities
+
+* [Untitled](activities/untitled.md)
+
 ## Services
 
 * [/services/id](services/services-id.md)
@@ -20,8 +24,4 @@
 ## Locations
 
 * [Untitled](locations/untitled.md)
-
-## Activities
-
-* [Untitled](activities/untitled.md)
 
