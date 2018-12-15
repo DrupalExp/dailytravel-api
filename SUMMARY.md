@@ -28,5 +28,5 @@
 
 ## Locations
 
-* [Untitled](locations/untitled.md)
+* [GetLocations](locations/untitled.md)
 
