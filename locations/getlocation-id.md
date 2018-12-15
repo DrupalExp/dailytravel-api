@@ -34,14 +34,22 @@ id, name, slug, location, images, summary, content, timezone, currency, status, 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+Location successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```javascript
 {
-    "name": "Cake's name",
-    "recipe": "Cake's recipe name",
-    "cake": "Binary cake"
+    "id": 1,
+    "name": "Viet Nam",
+    "slug": "/location/viet-nam",
+    "location": "5.6283253,96.8623023"
+    "images": "[path1, path2]",
+    "summary": "test summary",
+    "content": "tets content",
+    "timezone": "GMT+7",
+    "currentcy": "vn",
+    "status": 1,
+    "parent_id": 1,
 }
 ```
 {% endapi-method-response-example %}
@@ -53,7 +61,7 @@ Could not find a cake matching this query.
 
 ```javascript
 {
-    "message": "Ain't no cake like that."
+    "message": "There is no location found"
 }
 ```
 {% endapi-method-response-example %}
