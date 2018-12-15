@@ -6,7 +6,10 @@
 
 * [users](users/list.md)
 * [user/id](users/untitled.md)
-* [add](users/add.md)
+* [register](users/add.md)
+* [update/id](users/update-id.md)
+* [changePassword/id](users/changepassword-id.md)
+* [forgetPassword/id](users/forgetpassword-id.md)
 * [delete/id](users/delete-id.md)
 
 ## Activities

@@ -1,8 +1,8 @@
-# register
+# changePassword/id
 
 {% api-method method="post" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
-User register
+Change password for user by ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
