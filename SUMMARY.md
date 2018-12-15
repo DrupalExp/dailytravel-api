@@ -24,7 +24,7 @@
 
 ## Categories
 
-* [Untitled](categories/untitled.md)
+* [GetCategories](categories/untitled.md)
 
 ## Locations
 
